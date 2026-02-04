@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Editor - Gayani Anuththara</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pageEditor_validator.css" />
+</head>
+<body>
+
+  <!-- HEADER (Same as all other pages) -->
+  <header>
+    <div class="logo">
+      <img src="images/logo3.jpg" alt="Logo" width="100" height="100" />
+    </div>
+	<h1>Anuththara's Portfolio</h1>
+    <nav>
+      <ul class="navbar">
+        <li><a href="main.html" class="nav-link">Main</a></li>
+        <li><a href="cv.html" class="nav-link">CV</a></li>
+        <li><a href="job.html" class="nav-link">Ideal Job</a></li>
+        <li><a href="query.html" class="nav-link">Query</a></li>
+        <li><a href="sitemap.html" class="nav-link">Sitemap</a></li>
+		<li><a href="pageEditor_ST0.html" class="nav-link active">Page Editor</a></li>
+		<li><a href="Validation_ST0.html" class="nav-link">Validation Page</a></li>
+	  </ul>
+    </nav>
+  </header>
+  <br></br><br></br><br></br>
+
+  <!-- STUDENT NAME -->
+  <section class="stud">
+    <p><small>Gayani Anuththara – Software Architect</small></p>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <main>
+
+      <!-- Presentation Page -->
+      <section>
+        <h2 id="presentation" style="background-color:#e2e8f0">Presentation Page</h2>
+        <h3>Technical Description</h3>
+		
+        <p>The presentation page is serves as a splash page and it was created using basic HTML5 structure with a semantic layout.
+		It applies a CSS-styled body with a background image and color,using flex for centering the content both vartically and horizontally. 
+		A meta refresh tag was used to redirect to the main page after 3 seconds. Minimalist design with centered title provides a smooth introduction to the portfolio.</p>
+
+        <h3>Accessibility</h3>
+        <p>This page designed to be accessible by including clear,readable font and color contrast between text and background .The automatics redirect after 3 sec may need an alternative option or
+		user notification to accomodate users needing more time to read,aligning with accessible design pattern and principles under Janet AUP guidlines.</p>
+
+        <h3>Link to Validation</h3>
+        <p><a href="validation_ST0.html#present">Presentation Page Validation Snapshot</a></p>
+
+        <h3>Link to Page</h3>
+        <p><a href="presentation.html" style="color:purple;">View Splash Page</a></p>
+      </section>
+	  
+
+      <!-- Main Page -->
+      <section>
+        <h2 id="main" style="background-color:#e2e8f0">Main Page</h2>
+        <h3>Technical Description</h3>
+		
+        <p>To guarantee an inclusive experience for all users, including those with disabilities, this page was created with accessibility in mind. Semantic HTML5 tags, like &lt;header&gt;, &lt;main&gt;, &lt;section&gt;, and &lt;footer;, 
+		have been used to improve the way assistive technologies and screen readers understand the page structure. 
+		The biography is placed inside a semantic &lt;main&gt; element. External CSS handles layout and styling while internal CSS was used in this page for custom tweaks.</p>
+
+        <h3>Accessibility</h3>
+        <p>Alt text is included for the logo. All navigation links have descriptive text and hover/active states for visual feedback.</p>
+
+        <h3>Link to Validation</h3>
+        <p><a href="validation_ST0.html#main">Main Page Validation Snapshot</a></p>
+
+        <h3>Link to Page</h3>
+        <p><a href="main.html" style="color:purple;">View Main Page</a></p>
+      </section>
+	  
+	  
+	  <!-- CV Page-->
+	  <section>
+	     <h2 id="cv" style="background-color:#e2e8f0">CV Page</h2>
+	     <h3>Technical Description</h3>
+		 
+	     <p>For clarity and accessibility, this HTML CV page is organized using semantic HTML5 elements such as &lt;header&gt;,&lt;main&gt;and &lt;footer&gt;. It employs &lt;section&gt; ,&lt;dl&gt;, &lt;dt&gt; ,&lt;dd&gt; tags to arrange content under Education, 
+	      Work-Experience, Skills and certifications, and it has a navigation bar and internal anchor links for seamless section jumps. Layout, background, and alignment are managed by the internal CSS styles, particularly when using Flexbox for heading sections.<br> 
+	      The page is visually styled with consistent font, color, and spacing, and images are used as icons next to each section. The page successfully blends structure and design, making it readable and generally well-organized.</P>
+	  
+	     <h3>Accessibility</h3>
+		 
+	     <p>In order to assist users with disabilities, this page adheres to a number of important accessibility guidelines. Screen readers can better understand the page structure with the aid of semantic tags.<br>
+	     Every image has alt attributes, which guarantee that visually impaired users are able to understand important visuals. Keyboard users can navigate more easily with internal anchor links, which enable fast section jumps without the need for a mouse.<br> 
+	     To improve usability, text links are styled with visible color and hover effects. The layout uses CSS for spacing instead of a lot of &lt;br&gt;tags, which is better for responsive design and screen reader interpretation.</p>
+		 
+	    <h3>Link to Validation</h3>
+        <p><a href="validation_ST0.html#cv">CV Page Validation Snapshot</a></p>
+		
+		<h3>Link to Page</h3>
+        <p><a href="cv.html" style="color:purple;">View CV Page</a></p>
+	 </section>
+	 
+	 
+	 <!--Ideal Job Page-->
+	 <section>
+	    <h2 id="job" style="background-color:#e2e8f0">Ideal Job Page</h2>
+		<h3>Technical Description</h3>
+		
+		<p>This HTML document uses a responsive navigation system along with semantic HTML5 elements &lt;header&gt;,&lt;main&gt; ,&lt;section&gt;,&lt;footer&gt;to create a well-structured web page that describes the user's ideal job. 
+		It applies table formatting using internal styles to visually arrange a skill mapping matrix and combines external and internal CSS to guarantee modular styling.<br> For a clean layout and better readability, important web development best practices are used, such as border-collapse, consistent padding, and color differentiation for headers.
+		For logo branding, image elements are suitably embedded with alt attributes, and navigation is controlled by an unordered list. To preserve semantic clarity and enhance structural logic, the table makes use of &lt;caption&gt;, &lt;th rowspan&gt;, and &lt;th colspan&gt;.</p>
+		
+		<h3>Accessibility</h3>
+		
+		<p>A number of accessibility-conscious elements are included on the page to help screen reader users, including descriptive alt text for the logo image, semantic HTML elements for a clear structure, and meaningful section headings.
+		An unordered list is used to organize the navigation menu, which enhances keyboard navigation.<br> To guarantee that screen readers correctly interpret the data, table headers use the proper rowspan and colspan attributes.<br>
+		Readability is improved by the contrast between font and background colors (#0077cc for headers, #f9f9f9 for cells). 
+		Furthermore, links have clear labels, and the use of semantic tags enhances compatibility with assistive technology, guaranteeing an inclusive experience for users with disabilities.</p>
+		
+		<h3>Link to Validation</h3>
+        <p><a href="validation_ST0.html#job">Ideal Job Page Validation Snapshot</a></p>
+		
+		<h3>Link to Page</h3>
+        <p><a href="job.html"  style="color:purple;">View Ideal Job Page</a></p>
+	 </section>
+	 
+	 
+	 <!--Query Page-->
+	 <section>
+	    <h2 id="query" style="background-color:#e2e8f0">Query Page</h2>
+		<h3>Technical Description</h3>
+		
+		<p>Semantic HTML5 is used to construct the query form page, and both internal and external CSS are used for styling. 
+		&lt;fieldset&gt; and &lt;legend&gt; elements are used in the form's structure to logically group related form controls, 
+		improving readability and organization. Text, email, phone, date pickers, dropdowns, and radio buttons are examples of input fields.<br>
+		Each of these is properly labeled with the &lt;label&gt; element and has a corresponding id attribute. 
+		A responsive, user-friendly layout with precisely defined button spacing, padding, and hover states is made possible by internal CSS. 
+		HTML5 validation properties like required, type="email," and placeholder hints limit all user inputs, guaranteeing clean and legitimate data submission even prior to server-side processing.</p>
+
+		
+		<h3>Accessibility</h3>
+		
+		<p>The form uses semantic HTML and appropriate form labeling to prioritize accessibility. 
+		The for attribute is used to pair each input element with a &lt;label&gt;, which enhances screen reader compatibility and navigation. 
+		Form sections can be meaningfully interpreted by assistive technologies thanks to the sensible use of  &lt;fieldset&gt; and  &lt;legend&gt;. 
+		For users with visual impairments, the color scheme ensures readability by maintaining good contrast (e.g., dark blue on light gray).<br>
+		Grouped selection is made possible by the radio buttons' use of shared name attributes and the keyboard accessibility of the input fields. 
+		For the benefit of both screen reader users and keyboard-only navigators, required fields are visually indicated with a red asterisk and programmatically enforced with the required attribute.</p>
+		
+		<h3>Link to Validation</h3>
+        <p><a href="validation_ST0.html#query">Query Page Validation Snapshot</a></p>
+		
+		<h3>Link to Page</h3>
+        <p><a href="query.html"  style="color:purple;">View Query Page</a></p>
+	 </section>
+	 
+	 
+	 <!-- Sitemap Page-->
+	 <section>
+	    <h2 id="sitemap" style="background-color:#e2e8f0">Sitemap Page</h2>
+		<h3>Technical Description</h3>
+		
+		<p>A responsive SVG-based layout is used on the sitemap page to graphically depict the website's organization.
+		<rect> elements styled with CSS and wrapped in &lt;a&gt; tags for linking to specific pages are used to create interactive navigation blocks. These blocks are labeled with  &lt;text&gt; elements for readability and are positioned precisely using x and y coordinates.<br>
+		Hover transitions, stroke outlines, and fill colors are all made consistent by internal CSS styles. 
+		The viewBox attribute in the SVG and flexbox in the.sitemap-container work together to guarantee that the diagram stays centered and scalable on all screen sizes. 
+		To create a logical visual flow between related pages, connector lines (<line>) are added.</p>
+		
+		<h3>Accessibility</h3>
+		
+		<p>Utilizing SVG accessibility features, like &lt;title&gt; elements inside each &lt;a&gt; to provide screen reader-friendly tooltips, takes accessibility into account. 
+		Users can navigate with just their keyboards thanks to the keyboard-navigable nature of all interactive elements (the page blocks) via tabindex="0".<br> 
+		The use of semantic &lt;header&gt;, &lt;main&gt;, and &lt;footer&gt; tags enhances screen reader interpretation of the page structure, 
+		and color contrasts between text and backgrounds are adequate to assist users with visual impairments. 
+		To avoid unintentional interaction, pointer events are disabled on non-interactive text and readable fonts and sizes are used throughout the SVG, concentrating interactivity on the links themselves.</p>
+		
+		<h3>Link to Validation</h3>
+		<p><a href="validation_ST0.html#sitemap">Sitemap Page Validation Snapshot</a></p>
+		
+		<h3>Link to Page</h3>
+        <p><a href="sitemap.html"  style="color:purple;">View Sitemap Page</a></p>
+	 </section>
+	 
+		
+	 <!-- Challenges Section -->
+      <section>
+        <h2 id="challenge">Challenges and Lessons Learned</h2>
+        <p> Making the SVG sitemap keyboard accessible and responsive was one of the biggest challenges. 
+		I fixed this by using `tabindex` on each link and adding a `viewBox` to the SVG. Additionally, I improved my ability to distinguish between page-specific modifications (internal CSS) and layout styling (external CSS).</p>
+      </section>
+
+      <!-- Compliance Section -->
+      <section>
+        <h2 id="compliance">Compliance</h2>
+        <p>Each page validates without HTML errors and conforms with semantic HTML5. 
+		They meet Janet's standards for accessibility, appropriate linking, consistent navigation, and sound structure.JavaScript was not used.</p>
+      </section>
+
+      <!-- References -->
+      <section>
+        <h2 id="ref">References</h2>
+        <ul class="ref">
+          <li>Duckett, J. (2011). <i>HTML and CSS: Design and Build Websites.</i> Wiley.</li>
+          <li>W3C (2025). <i>W3C HTML Validator</i>. Available at: <a href="https://validator.w3.org/">https://validator.w3.org/</a></li>
+          <li>MDN Web Docs (2025). <i>HTML Elements Reference</i>. Available at: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN HTML Elements</a></li>
+        </ul>
+      </section>
+
+      <!-- Go to Top Button -->
+      <p class="top"><a href="#top">Go top</a></p>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside>
+      <h3>Core Pages Developed:</h3>
+      <ul class="top-level-ul">
+        <li><a href="#presentation">Presentation Page</a></li>
+        <li><a href="#main">Main Page</a></li>
+		<li><a href="#cv">CV Page</a></li>
+		<li><a href="#cv">Ideal Job Page</a></li>
+		<li><a href="#cv">Query Page</a></li>
+		<li><a href="#cv">Sitemap Page</a></li>
+        <li><a href="#challenge">Challenges</a></li>
+        <li><a href="#compliance">Compliance</a></li>
+        <li><a href="#ref">References</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- FOOTER  -->
+  <footer>
+    <p>Contact: <a href="mailto:anuththarajayarathne22@gmail.com" style= "color:red">Email</a> |
+       <a href="editor.html" style= "color: #ADD8E6">Page Editor</a></p>
+  </footer>
+
+</body>
+</html>

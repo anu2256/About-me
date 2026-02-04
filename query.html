@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Query Form </title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+   
+    form {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+    }
+
+    fieldset {
+      border: 2px solid #0077cc;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 5px;
+	 
+    }
+
+    legend {
+      font-weight: bold;
+      color: #0041C2;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .buttons {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .buttons input[type="submit"] {
+      padding: 10px 20px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .buttons input[type="submit"]:hover {
+      background-color: darkred;
+    }
+	.buttons input[type="reset"] {
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+   .buttons input[type="reset"]:hover {
+      background-color: #005fa3;
+    }
+	input[type="radio"] {
+      margin-left: -150px; 
+	 
+	}  
+	#phoneContact {
+      position: relative;
+      top: 30px;
+	 
+	}
+	#emailContact{
+	  position: relative;
+      top: 30px;
+	}
+	body{
+	  background-color:#79BAEC;
+	  
+	}
+	
+	
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="images/logo3.jpg" alt="Logo" width="100" height="100">
+      
+    </div>
+	<h1>Anuththara's Portfolio</h1>
+    <nav>
+      <ul class="navbar">
+        <li><a href="main.html" class="nav-link">Main</a></li>
+        <li><a href="cv.html" class="nav-link">CV</a></li>
+        <li><a href="job.html" class="nav-link">Ideal Job</a></li>
+        <li><a href="query.html" class="nav-link active">Query</a></li>
+        <li><a href="sitemap.html" class="nav-link">Sitemap</a></li>
+		<li><a href="pageEditor_ST0.html" class="nav-link">Page Editor</a></li>
+		<li><a href="Validation_ST0.html" class="nav-link">Validation Page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <h2>Submit a Query</h2>
+    <form action="#" method="post">
+      
+      <!-- Personal Details  -->
+      <fieldset>
+        <legend><strong>Personal Details</strong></legend>
+
+        <label for="name">Name<span style="color:red;">*</span></label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email<span style="color:red;">*</span></label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+
+        <label for="phone">Telephone</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g., 0712345678">
+      </fieldset>
+
+      <!-- Query Details  -->
+      <fieldset>
+        <legend><strong>Query Details</strong></legend>
+
+        <label for="reason">Reason for Contact</label>
+        <select id="reason" name="reason">
+          <option value="">--Please choose an option--</option>
+          <option value="feedback">Feedback</option>
+          <option value="question">General Question</option>
+          <option value="support">Technical Support</option>
+        </select>
+
+        <label>Preferred Contact Method</label>
+        <input type="radio" id="emailContact" name="contactMethod" value="email" required>
+        <label for="emailContact">Email </label>
+        
+        <input type="radio" id="phoneContact" name="contactMethod" value="phone">
+        <label for="phoneContact">Telephone</label>
+
+        <label for="date">Preferred Contact Date</label>
+        <input type="date" id="date" name="date">
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Type your message here..."></textarea>
+      </fieldset>
+
+      <!-- Buttons -->
+      <div class="buttons">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
+    </form>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Contact: <a href="mailto:anuththarajayarathne22@gmail.com" style= "color:red" >Email</a> |
+       <a href="pageEditor_ST0.html" style= "color: #ADD8E6">Page Editor</a></p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CV </title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+    .cv-section {
+      margin-top: 30px;
+	  margin-left:50px;
+	  background-color: #e2e8f0;
+	  padding: 20px;
+	  margin-right:50px;
+	  border-style:outset;
+	  
+    }
+
+    .cv-thumb{
+      width: 50px;
+      height: 50px;
+      margin-left: -5px;
+	  vertical-align: middle;
+	  text-align:right;
+	  margin-left:30px;
+	 
+    }
+	h3{
+	  margin-left:10px;
+	}
+
+    .cv-heading {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+	  margin-left:10px;
+	  
+    }
+
+    .cv-heading h3 {
+      margin-top: -1px;
+	  color:blue;
+	 
+    }
+
+    .anchor-links {
+      margin: 20px 0;
+    }
+
+    .anchor-links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: blue;
+    }
+
+    .anchor-links a:hover {
+      text-decoration: underline;
+	  color:red;
+	  
+    }
+
+    dl dt {
+      font-weight: bold;
+      margin-top: 15px;
+	  margin-left: 140px;
+    }
+
+    dl dd {
+      margin-left: 170px;
+      margin-bottom: 10px;
+    }
+	hr{
+	  border-style:inset;
+	}
+	
+	
+	
+	
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="images/logo3.jpg" alt="Logo" width="100" height="100">
+      
+    </div>
+	<h1>Anuththara's Portfolio</h1>
+    <nav>
+      <ul class="navbar">
+        <li><a href="main.html" class="nav-link">Main</a></li>
+        <li><a href="cv.html" class="nav-link active">CV</a></li>
+        <li><a href="job.html" class="nav-link">Ideal Job</a></li>
+        <li><a href="query.html" class="nav-link">Query</a></li>
+        <li><a href="sitemap.html" class="nav-link">Sitemap</a></li>
+		<li><a href="pageEditor_ST0.html" class="nav-link">Page Editor</a></li>
+		<li><a href="Validation_ST0.html" class="nav-link">Validation Page</a></li>
+      </ul>
+    </nav>
+  </header><br><br><br>
+
+  <!-- MAIN -->
+  <main>
+    <section class="anchor-links">
+      <strong>Click to:</strong>
+      <a href="#education">Education</a>
+      <a href="#experience">Work Experience</a>
+      <a href="#skills">Skills</a> 
+	  <a href="#certificate">Certifications</a>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="cv-section">
+      <div class="cv-heading">
+        <img src="images/edu2.jpg" alt="Education Icon" class="cv-thumb">
+        <h3>Education</h3>
+	  </div>
+	  <hr width="75%" size="3"/>
+      <dl>
+        <dt>BSc (Hons) Computer Science - IIT</dt>
+        <dd>In Progress – Expected 2028</dd>
+        <dd>Key Modules: Software Engineering,Cybersecurity, AI and Data Science</dd>
+
+        <dt>Advanced Level</dt> 
+		<dd>Bio-Science Stream</dd>
+		
+        <dt>Foundation Certification course in IIT</dt>
+		<dd>Completed in 2023 with strong emphasis on problem-solving and programming fundamentals</dd>
+
+     </dl>
+    </section>
+
+    <!-- WORK EXPERIENCE -->
+    <section id="experience" class="cv-section">
+      <div class="cv-heading">
+        <img src="images/work1.jpg" alt="Work Icon" class="cv-thumb">
+        <h3>Work Experience</h3>
+      </div>
+	  <hr width="75%" size="3"/>
+      <dl>
+        <dt>Intern - ABC Tech Solutions</dt>
+        <dd>June 2024 – September 2024</dd>
+        <dd>Worked on front-end bug fixes, internal tools, and team collaboration</dd>
+
+        <dt>Freelance Graphic Designer</dt>
+        <dd>2024 – Present</dd>
+        <dd>Designed responsive design for small businesses using photoshop </dd>
+      </dl>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="cv-section">
+      <div class="cv-heading">
+        <img src="images/skill1.jpg" alt="Skills Icon" class="cv-thumb">
+        <h3>Skills</h3>
+      </div>
+	  <hr width="75%" size="3"/>
+      <dl>
+        <dt>Programming Languages</dt>
+        <dd>Java, Python, JavaScript, C++</dd>
+
+        <dt>Web Development</dt>
+        <dd>HTML5, CSS3, JavaScript</dd>
+
+        <dt>Tools & Platforms</dt>
+        <dd> VS Code, Figma,MySQL</dd>
+      </dl>
+    </section>
+	
+	<!--Certificate-->
+	<section id="certificate" class="cv-section">
+      <div class="cv-heading">
+        <img src="images/certify1.jpg" alt="certificate Icon" class="cv-thumb">
+        <h3>Certifications</h3>
+      </div>
+	  <hr width="75%" size="3"/>
+	  <dl>
+	    <dt>Education Certifications</dt>
+		<dd>Ordinary Level</dd>
+		<dd>Advanced Level</dd>
+		<dd>Foundation Certificate in CS </dd>
+		<dd>Certificate in Graphic Design</dd>
+	  </dl>
+	</section>
+		
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Contact: <a href="mailto:anuththarajayarathne22@gmail.com" style= "color:red">Email</a> |
+       <a href="pageEditor_ST0.html" style= "color: #ADD8E6">Page Editor</a></p>
+  </footer>
+
+</body>
+</html>
