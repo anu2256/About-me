@@ -10,7 +10,7 @@ This website is built using:
 
 It includes multiple pages such as:
 - precentation Page
-- Home Page
+- Main Page
 - CV Page
 - Job Page
 - Query Form
